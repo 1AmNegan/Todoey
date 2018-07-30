@@ -13,6 +13,7 @@
 		DBA8631F210ADE7400B97866 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBA8631D210ADE7400B97866 /* Main.storyboard */; };
 		DBA86321210ADE7500B97866 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBA86320210ADE7500B97866 /* Assets.xcassets */; };
 		DBA86324210ADE7500B97866 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBA86322210ADE7500B97866 /* LaunchScreen.storyboard */; };
+		DBA9924F210DEE7100E0A90A /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA9924E210DEE7100E0A90A /* CategoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DBA86320210ADE7500B97866 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBA86323210ADE7500B97866 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBA86325210ADE7500B97866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBA9924E210DEE7100E0A90A /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		DB10805A210C182200C214FD /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				DBA9924E210DEE7100E0A90A /* CategoryViewController.swift */,
 				DBA8631B210ADE7400B97866 /* TodoListViewController.swift */,
 			);
 			path = Controllers;
@@ -170,6 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBA9924F210DEE7100E0A90A /* CategoryViewController.swift in Sources */,
 				DBA8631C210ADE7400B97866 /* TodoListViewController.swift in Sources */,
 				DBA8631A210ADE7400B97866 /* AppDelegate.swift in Sources */,
 				DB10807F210CD51600C214FD /* DataModel.xcdatamodeld in Sources */,
